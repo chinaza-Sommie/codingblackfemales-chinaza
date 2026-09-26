@@ -22,6 +22,16 @@ public class MyAlgoLogic implements AlgoLogic {
         /********
          *
          * Add your logic here....
+         * Pseudo code:
+         * - check the market order book
+         * - Check how many child orders exist
+         * - create a new order if there are no child orders
+         * - if there are child orders, check if they are filled
+         * - if they are filled, create a new order
+         * - if they are not filled, check if the price is still valid
+         * - if the price is valid, do nothing
+         * - if the price is not valid, cancel the order
+         * 
          *
          */
 
