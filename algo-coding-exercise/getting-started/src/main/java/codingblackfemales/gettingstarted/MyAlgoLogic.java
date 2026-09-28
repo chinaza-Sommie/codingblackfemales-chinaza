@@ -56,7 +56,7 @@ public class MyAlgoLogic implements AlgoLogic {
             var price = level.price;
             var quantity = level.quantity;
 ;           logger.info("[MYALGO] bid level is: " + level);
-            return new CreateChildOrder(Side.BUY, quantity, price);
+            return new CreateChildOrder(Side.BUY, quantity, price); 
         }else{
             
         }
