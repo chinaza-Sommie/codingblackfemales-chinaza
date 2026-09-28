@@ -1,12 +1,16 @@
 package codingblackfemales.gettingstarted;
 
 import codingblackfemales.action.Action;
+import codingblackfemales.action.CreateChildOrder;
 import codingblackfemales.action.NoAction;
 import codingblackfemales.algo.AlgoLogic;
 import codingblackfemales.sotw.SimpleAlgoState;
 import codingblackfemales.util.Util;
+import messages.order.Side;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import codingblackfemales.sotw.marketdata.BidLevel;
 
 public class MyAlgoLogic implements AlgoLogic {
 
@@ -18,6 +22,11 @@ public class MyAlgoLogic implements AlgoLogic {
         var orderBookAsString = Util.orderBookToString(state);
 
         logger.info("[MYALGO] The state of the order book is:\n" + orderBookAsString);
+
+        var childOrders = state.getChildOrders();
+        var childOrdersSize = childOrders.size();
+
+        // logger.info("[MYALGO] The number of child orders is: " + sizeOfChildOrders);
 
         /********
          *
@@ -35,6 +44,24 @@ public class MyAlgoLogic implements AlgoLogic {
          *
          */
 
+        if(childOrdersSize > 10){
+            return NoAction.NoAction;
+        }
+
+        logger.info("[MYALGO] The number of child orders is: " + childOrdersSize);
+
+        if(childOrdersSize == 0){
+            logger.info("[MYALGO] No child orders exist. Start by creating new order");
+            BidLevel level = state.getBidAt(0);
+            var price = level.price;
+            var quantity = level.quantity;
+;           logger.info("[MYALGO] bid level is: " + level);
+            return new CreateChildOrder(Side.BUY, quantity, price);
+        }else{
+            
+        }
+
+        logger.info("[MYALGO] The number of child orders is: " + childOrdersSize);
         return NoAction.NoAction;
     }
 }
