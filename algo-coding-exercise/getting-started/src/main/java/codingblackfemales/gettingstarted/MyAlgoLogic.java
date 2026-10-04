@@ -56,12 +56,12 @@ public class MyAlgoLogic implements AlgoLogic {
         logger.info("[MYALGO] The number of active child orders is: " + activeChildOrders.size());
         // logger.info("[MYALGO] The filled child orders: " );
 
-        if(activeChildOrders.size() <= 0){
+        if(activeChildOrders.size() < 3){
             logger.info("[MYALGO] No child orders exist. Start by creating new order");
             BidLevel level = state.getBidAt(0);
             var price = level.price;
             var quantity = level.quantity;
-;           logger.info("[MYALGO] bid level is: " + level);
+            logger.info("[MYALGO] bid level is: " + level);
             return new CreateChildOrder(Side.BUY, quantity, price); 
         }else{
             final var option = activeChildOrders.stream().findFirst();
