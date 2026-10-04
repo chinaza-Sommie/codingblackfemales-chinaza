@@ -1,6 +1,7 @@
 package codingblackfemales.gettingstarted;
 
 import codingblackfemales.action.Action;
+import codingblackfemales.action.CancelChildOrder;
 import codingblackfemales.action.CreateChildOrder;
 import codingblackfemales.action.NoAction;
 import codingblackfemales.algo.AlgoLogic;
@@ -25,6 +26,8 @@ public class MyAlgoLogic implements AlgoLogic {
 
         var childOrders = state.getChildOrders();
         var childOrdersSize = childOrders.size();
+        final var activeChildOrders = state.getActiveChildOrders();
+        // final var filledChildOrders = childOrders.get(1).getFilledQuantity();
 
         // logger.info("[MYALGO] The number of child orders is: " + sizeOfChildOrders);
 
@@ -32,9 +35,9 @@ public class MyAlgoLogic implements AlgoLogic {
          *
          * Add your logic here....
          * Pseudo code:
-         * - check the market order book
-         * - Check how many child orders exist
-         * - create a new order if there are no child orders
+         * - DONE - check the market order book
+         * - DONE - Check how many child orders exist
+         * - DONE - create a new order if there are no child orders
          * - if there are child orders, check if they are filled
          * - if they are filled, create a new order
          * - if they are not filled, check if the price is still valid
@@ -44,13 +47,16 @@ public class MyAlgoLogic implements AlgoLogic {
          *
          */
 
-        if(childOrdersSize > 10){
-            return NoAction.NoAction;
-        }
+        // change this to a limit to the number of child orders
+        // if(childOrdersSize > 10){
+        //     return NoAction.NoAction;
+        // }
 
-        logger.info("[MYALGO] The number of child orders is: " + childOrdersSize);
+        
+        logger.info("[MYALGO] The number of active child orders is: " + activeChildOrders.size());
+        // logger.info("[MYALGO] The filled child orders: " );
 
-        if(childOrdersSize == 0){
+        if(activeChildOrders.size() <= 0){
             logger.info("[MYALGO] No child orders exist. Start by creating new order");
             BidLevel level = state.getBidAt(0);
             var price = level.price;
@@ -58,10 +64,28 @@ public class MyAlgoLogic implements AlgoLogic {
 ;           logger.info("[MYALGO] bid level is: " + level);
             return new CreateChildOrder(Side.BUY, quantity, price); 
         }else{
-            
-        }
+            final var option = activeChildOrders.stream().findFirst();
 
-        logger.info("[MYALGO] The number of child orders is: " + childOrdersSize);
+            if(option.isPresent()){
+                var childOrderOption = option.get();
+                BidLevel bestBidLevel = state.getBidAt(0);
+                // var childOrderPrice = childOrderOption.getPrice();
+
+                if(bestBidLevel == null){
+                    logger.info("[MYALGO] No bid levels exist. Cancel the order");
+                    return NoAction.NoAction;
+                }
+
+                if(childOrderOption.getPrice() == bestBidLevel.price){
+                    logger.info("[MYALGO] Active child order price is still valid. Do nothing");
+                    return NoAction.NoAction;
+                }
+                
+                logger.info("[MYALGO] Active child order is (option): " + childOrderOption);
+                return new CancelChildOrder(childOrderOption);
+            }
+        }
+        // logger.info("[MYALGO] child orders filled: " + filledChildOrders);
         return NoAction.NoAction;
     }
 }
