@@ -48,7 +48,16 @@ public class MyAlgoTest extends AbstractAlgoTest {
             assertEquals(container.getState().getActiveChildOrders().size(), 3);
     }
 
+    @Test
+    public void shouldNotCreateMoreThanThreeActiveOrders() throws Exception {
+        send(createTick());
 
+        assertEquals(container.getState().getActiveChildOrders().size(), 3);
+
+        send(createTick());
+
+        assertEquals(container.getState().getActiveChildOrders().size(), 3);
+    }
     
 
 }
