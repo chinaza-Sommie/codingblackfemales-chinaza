@@ -39,5 +39,16 @@ public class MyAlgoTest extends AbstractAlgoTest {
     }
 
     
+    @Test
+    public void shouldCreateThreeBuyOrdersWhenThereAreNoActiveOrders() throws Exception {
+    
+            send(createTick());
+
+            assertEquals(container.getState().getChildOrders().size(), 3);
+            assertEquals(container.getState().getActiveChildOrders().size(), 3);
+    }
+
+
+    
 
 }
