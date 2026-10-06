@@ -56,19 +56,11 @@ public class MyAlgoTest extends AbstractAlgoTest {
         assertEquals(3, container.getState().getActiveChildOrders().size());
 
         send(createTick());
-        System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(1).getPrice());
+       
+         System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(1).getPrice());
         
-        System.out.println("==============Active child orders NEW testing============: " + container.getState().getChildOrders().get(1).getPrice());
+        System.out.println("==============Active child orders NEW testing============: " + container.getState().getChildOrders().get(1).getState());
 
-        for (int i = 0; i < container.getState().getActiveChildOrders().size(); i++) {
-            var order = container.getState().getActiveChildOrders().get(i);
-
-            System.out.println(
-                "Order " + i +
-                " | quantity=" + order.getQuantity() +
-                " | price=" + order.getPrice()
-            );
-        }
 
         assertEquals(3, container.getState().getActiveChildOrders().size());
     }
