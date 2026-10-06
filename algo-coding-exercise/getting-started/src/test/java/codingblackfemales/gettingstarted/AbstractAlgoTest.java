@@ -76,5 +76,33 @@ public abstract class AbstractAlgoTest extends SequencerTestCase {
     }
 
 
+    protected UnsafeBuffer createTick2() {
+
+        final MessageHeaderEncoder headerEncoder = new MessageHeaderEncoder();
+        final BookUpdateEncoder encoder = new BookUpdateEncoder();
+
+        final ByteBuffer byteBuffer = ByteBuffer.allocateDirect(1024);
+        final UnsafeBuffer directBuffer = new UnsafeBuffer(byteBuffer);
+
+        encoder.wrapAndApplyHeader(directBuffer, 0, headerEncoder);
+
+        encoder.venue(Venue.LME);
+        encoder.instrumentId(123L);
+
+        encoder.askBookCount(3)
+                .next().price(97L).size(101L)
+                .next().price(105L).size(200L)
+                .next().price(115L).size(5000L);
+
+        encoder.bidBookCount(3)
+                .next().price(95L).size(100L)
+                .next().price(90L).size(200L)
+                .next().price(85L).size(300L);
+
+        encoder.instrumentStatus(InstrumentStatus.CONTINUOUS);
+        encoder.source(Source.STREAM);
+
+        return directBuffer;
+    }
 
 }
