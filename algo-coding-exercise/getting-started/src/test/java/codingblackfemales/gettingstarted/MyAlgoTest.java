@@ -35,7 +35,7 @@ public class MyAlgoTest extends AbstractAlgoTest {
         send(createTick());
 
         //simple assert to check we had 3 orders created
-        assertEquals(container.getState().getChildOrders().size(), 3);
+        assertEquals(3, container.getState().getChildOrders().size());
     }
 
     
@@ -44,20 +44,61 @@ public class MyAlgoTest extends AbstractAlgoTest {
     
             send(createTick());
 
-            assertEquals(container.getState().getChildOrders().size(), 3);
-            assertEquals(container.getState().getActiveChildOrders().size(), 3);
+            assertEquals(3, container.getState().getChildOrders().size());
+            assertEquals(3, container.getState().getActiveChildOrders().size());
     }
 
     @Test
     public void shouldNotCreateMoreThanThreeActiveOrders() throws Exception {
         send(createTick());
 
-        assertEquals(container.getState().getActiveChildOrders().size(), 3);
+        assertEquals(3, container.getState().getActiveChildOrders().size());
 
         send(createTick());
+        
+        System.out.println(
+            "PRICE = " + container.getState().getActiveChildOrders().get(0).getPrice()
+        );
 
-        assertEquals(container.getState().getActiveChildOrders().size(), 3);
+        System.out.println(
+            "ORDER = " + container.getState().getActiveChildOrders().get(0)
+        );
+        assertEquals(3, container.getState().getActiveChildOrders().size());
     }
     
+    // test for doing nothing when the price is still valid
+    // @Test
+    // public void shouldDoNothingWhenPriceIsValid() throws Exception {
+    //     send(createTick());
+    
+    //     assertEquals(3, container.getState().getChildOrders().size());;
+    //     assertEquals(3, container.getState().getActiveChildOrders().size());
 
+    //     send(createTick());
+
+    //     System.out.println("Active child orders NEW testing: " + container.getState().getActiveChildOrders().get(0));
+    //     assertEquals(3, container.getState().getChildOrders().size());
+    //     assertEquals(3, container.getState().getActiveChildOrders().size());
+    //     assertEquals(98L, container.getState().getChildOrders().get(0).getPrice());
+    // }
+
+    // test for when the best bid changes
+    
+    // @Test
+    // public void shouldCancelOrderWhenBestBidChanges() throws Exception {
+    //     send(createTick());
+
+    //     assertEquals(3, container.getState().getActiveChildOrders().size());
+    //     assertEquals(98L, container.getState().getActiveChildOrders().get(0).getPrice());
+
+    //     send(createTick2());
+
+    //     assertEquals(95L, container.getState().getActiveChildOrders().get(0).getPrice());
+    // }
+
+
+
+    // test for when the market changes
+    
+    
 }
