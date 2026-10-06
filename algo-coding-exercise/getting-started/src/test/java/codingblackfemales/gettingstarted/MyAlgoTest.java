@@ -57,11 +57,6 @@ public class MyAlgoTest extends AbstractAlgoTest {
 
         send(createTick());
        
-         System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(1).getPrice());
-        
-        System.out.println("==============Active child orders NEW testing============: " + container.getState().getChildOrders().get(1).getState());
-
-
         assertEquals(3, container.getState().getActiveChildOrders().size());
     }
     
