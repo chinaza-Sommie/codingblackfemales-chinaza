@@ -132,6 +132,7 @@ public class MyAlgoLogic implements AlgoLogic {
         }
 
         logger.info("[MYALGO] Best bid has changed. Cancelling stale child order: " + childOrder);
+        
 
         return new CancelChildOrder(childOrder);
     }

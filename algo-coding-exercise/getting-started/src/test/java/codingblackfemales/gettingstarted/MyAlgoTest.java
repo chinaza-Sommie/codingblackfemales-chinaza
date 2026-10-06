@@ -55,43 +55,40 @@ public class MyAlgoTest extends AbstractAlgoTest {
         assertEquals(3, container.getState().getActiveChildOrders().size());
 
         send(createTick());
+        System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(1).getPrice());
         
+        System.out.println("==============Active child orders NEW testing============: " + container.getState().getChildOrders().get(1).getPrice());
+
+        for (int i = 0; i < container.getState().getActiveChildOrders().size(); i++) {
+            var order = container.getState().getActiveChildOrders().get(i);
+
+            System.out.println(
+                "Order " + i +
+                " | quantity=" + order.getQuantity() +
+                " | price=" + order.getPrice()
+            );
+        }
+
         assertEquals(3, container.getState().getActiveChildOrders().size());
     }
     
     // test for doing nothing when the price is still valid
-    // @Test
-    // public void shouldDoNothingWhenPriceIsValid() throws Exception {
-    //     send(createTick());
+    @Test
+    public void shouldDoNothingWhenPriceIsValid() throws Exception {
+        send(createTick());
     
-    //     assertEquals(3, container.getState().getChildOrders().size());;
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
+        assertEquals(3, container.getState().getChildOrders().size());;
+        assertEquals(3, container.getState().getActiveChildOrders().size());
 
-    //     send(createTick());
+        send(createTick());
 
-    //     System.out.println("Active child orders NEW testing: " + container.getState().getActiveChildOrders().get(0));
-    //     assertEquals(3, container.getState().getChildOrders().size());
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
-    //     assertEquals(98L, container.getState().getChildOrders().get(0).getPrice());
-    // }
+        System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(0));
+        assertEquals(3, container.getState().getChildOrders().size());
+        assertEquals(3, container.getState().getActiveChildOrders().size());
+        assertEquals(100L, container.getState().getChildOrders().get(0).getPrice());
+    }
 
-    // test for when the best bid changes
     
-    // @Test
-    // public void shouldCancelOrderWhenBestBidChanges() throws Exception {
-    //     send(createTick());
-
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
-    //     assertEquals(98L, container.getState().getActiveChildOrders().get(0).getPrice());
-
-    //     send(createTick2());
-
-    //     assertEquals(95L, container.getState().getActiveChildOrders().get(0).getPrice());
-    // }
-
-
-
-    // test for when the market changes
     
     
 }
