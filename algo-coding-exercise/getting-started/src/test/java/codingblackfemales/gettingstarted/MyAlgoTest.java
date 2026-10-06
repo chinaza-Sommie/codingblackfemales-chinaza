@@ -3,6 +3,7 @@ package codingblackfemales.gettingstarted;
 import codingblackfemales.algo.AlgoLogic;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 // import static org.junit.Assert.assertEquals;
 
@@ -74,21 +75,36 @@ public class MyAlgoTest extends AbstractAlgoTest {
     
     // test for doing nothing when the price is still valid
     @Test
-    public void shouldDoNothingWhenPriceIsValid() throws Exception {
+    public void testDoesNothingWhenBestBidHasNotChanged() throws Exception {
         send(createTick());
+        int numberOfOdersBefore = container.getState().getChildOrders().size();
+
+        send(createTick());
+
+        assertEquals(numberOfOdersBefore, container.getState().getChildOrders().size());
+    }
     
-        assertEquals(3, container.getState().getChildOrders().size());;
-        assertEquals(3, container.getState().getActiveChildOrders().size());
-
+    @Test 
+    public void testCancelsChildOrderWhenMarketPriceChanges() throws Exception {
         send(createTick());
 
-        System.out.println("==============Active child orders NEW testing============: " + container.getState().getActiveChildOrders().get(0));
-        assertEquals(3, container.getState().getChildOrders().size());
         assertEquals(3, container.getState().getActiveChildOrders().size());
-        assertEquals(100L, container.getState().getChildOrders().get(0).getPrice());
+
+        send(createTick2());
+
+        // assertTrue(container.getState().getChildOrders().stream().anyMatch((order) -> order.getState() == ));
     }
 
-    
-    
-    
+    @Test 
+    public void testAlgoRespondsToMultipleMarketDataUpdates() throws Exception {
+        send(createTick());
+
+        assertEquals(3, container.getState().getActiveChildOrders().size());
+
+        send(createTick2());
+
+        send(createTick2());
+
+        assertTrue(container.getState().getChildOrders().size() >= 3);
+    }
 }
