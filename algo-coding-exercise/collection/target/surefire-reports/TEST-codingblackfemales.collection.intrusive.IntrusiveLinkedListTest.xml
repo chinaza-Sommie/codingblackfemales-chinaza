@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire/surefirebooter2362898104076383462.jar /Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire 2026-10-07T07-06-56_737-jvmRun1 surefire14976124857487538837tmp surefire_28454288550657118753tmp"/>
+    <property name="sun.java.command" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire/surefirebooter2418363960732329590.jar /Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire 2026-10-07T23-10-30_912-jvmRun1 surefire7710003955189569126tmp surefire_214844088399181241815tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/test-classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/classes:/Users/chinazachukwunweike/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/chinazachukwunweike/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/chinazachukwunweike/.m2/repository/uk/co/real-logic/sbe-all/1.26.0/sbe-all-1.26.0.jar:/Users/chinazachukwunweike/.m2/repository/org/mockito/mockito-core/5.23.0/mockito-core-5.23.0.jar:/Users/chinazachukwunweike/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/Users/chinazachukwunweike/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/Users/chinazachukwunweike/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/chinazachukwunweike/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/Users/chinazachukwunweike/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/Users/chinazachukwunweike/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire/surefirebooter2362898104076383462.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/surefire/surefirebooter2418363960732329590.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.11"/>
@@ -58,8 +58,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSimpleOps" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0.001"/>
+  <testcase name="testSimpleOps" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0"/>
   <testcase name="testFirstNodeIsAlwaysCorrect" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0.001"/>
   <testcase name="testChangeLast" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0"/>
-  <testcase name="testChangeFirst" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0"/>
+  <testcase name="testChangeFirst" classname="codingblackfemales.collection.intrusive.IntrusiveLinkedListTest" time="0.001"/>
 </testsuite>
