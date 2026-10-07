@@ -79,7 +79,9 @@ public class MyAlgoTest extends AbstractAlgoTest {
 
         send(createTick2());
 
-        // assertTrue(container.getState().getChildOrders().stream().anyMatch((order) -> order.getState() == ));
+        // assert that the an order was cancelled by checking that it is no longer actives instead
+        assertTrue(container.getState().getChildOrders().size() > container.getState().getActiveChildOrders().size());
+
     }
 
     @Test 
