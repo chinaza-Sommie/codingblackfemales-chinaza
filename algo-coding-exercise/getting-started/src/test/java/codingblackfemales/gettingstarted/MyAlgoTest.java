@@ -3,6 +3,7 @@ package codingblackfemales.gettingstarted;
 import codingblackfemales.algo.AlgoLogic;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 // import static org.junit.Assert.assertEquals;
 
@@ -55,43 +56,44 @@ public class MyAlgoTest extends AbstractAlgoTest {
         assertEquals(3, container.getState().getActiveChildOrders().size());
 
         send(createTick());
-        
+       
         assertEquals(3, container.getState().getActiveChildOrders().size());
     }
     
     // test for doing nothing when the price is still valid
-    // @Test
-    // public void shouldDoNothingWhenPriceIsValid() throws Exception {
-    //     send(createTick());
+    @Test
+    public void testDoesNothingWhenBestBidHasNotChanged() throws Exception {
+        send(createTick());
+        int numberOfOdersBefore = container.getState().getChildOrders().size();
+
+        send(createTick());
+
+        assertEquals(numberOfOdersBefore, container.getState().getChildOrders().size());
+    }
     
-    //     assertEquals(3, container.getState().getChildOrders().size());;
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
+    @Test 
+    public void testCancelsChildOrderWhenMarketPriceChanges() throws Exception {
+        send(createTick());
 
-    //     send(createTick());
+        assertEquals(3, container.getState().getActiveChildOrders().size());
 
-    //     System.out.println("Active child orders NEW testing: " + container.getState().getActiveChildOrders().get(0));
-    //     assertEquals(3, container.getState().getChildOrders().size());
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
-    //     assertEquals(98L, container.getState().getChildOrders().get(0).getPrice());
-    // }
+        send(createTick2());
 
-    // test for when the best bid changes
-    
-    // @Test
-    // public void shouldCancelOrderWhenBestBidChanges() throws Exception {
-    //     send(createTick());
+        // assert that the an order was cancelled by checking that it is no longer actives instead
+        assertTrue(container.getState().getChildOrders().size() > container.getState().getActiveChildOrders().size());
 
-    //     assertEquals(3, container.getState().getActiveChildOrders().size());
-    //     assertEquals(98L, container.getState().getActiveChildOrders().get(0).getPrice());
+    }
 
-    //     send(createTick2());
+    @Test 
+    public void testAlgoRespondsToMultipleMarketDataUpdates() throws Exception {
+        send(createTick());
 
-    //     assertEquals(95L, container.getState().getActiveChildOrders().get(0).getPrice());
-    // }
+        assertEquals(3, container.getState().getActiveChildOrders().size());
 
+        send(createTick2());
 
+        send(createTick3());
 
-    // test for when the market changes
-    
-    
+        assertTrue(container.getState().getChildOrders().size() >= 3);
+    }
 }
