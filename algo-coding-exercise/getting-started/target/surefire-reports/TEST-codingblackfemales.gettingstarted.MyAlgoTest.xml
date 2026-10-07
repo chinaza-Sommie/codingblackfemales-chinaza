@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="codingblackfemales.gettingstarted.MyAlgoTest" time="0.107" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="codingblackfemales.gettingstarted.MyAlgoTest" time="0.105" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire/surefirebooter-20261007070700385_27.jar /Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire 2026-10-07T07-06-59_100-jvmRun1 surefire-20261007070700385_25tmp surefire_2-20261007070700385_26tmp"/>
+    <property name="sun.java.command" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire/surefirebooter-20261007231034782_27.jar /Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire 2026-10-07T23-10-33_399-jvmRun1 surefire-20261007231034782_25tmp surefire_2-20261007231034782_26tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/test-classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/algo/target/classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/dictionary/target/classes:/Users/chinazachukwunweike/.m2/repository/org/agrona/agrona/1.16.0/agrona-1.16.0.jar:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/sequencer/target/classes:/Users/chinazachukwunweike/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chinazachukwunweike/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/backtest/target/classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/collection/target/classes:/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/sequencer/target/test-classes:/Users/chinazachukwunweike/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/chinazachukwunweike/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/chinazachukwunweike/.m2/repository/uk/co/real-logic/sbe-all/1.26.0/sbe-all-1.26.0.jar:/Users/chinazachukwunweike/.m2/repository/org/mockito/mockito-core/5.23.0/mockito-core-5.23.0.jar:/Users/chinazachukwunweike/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/Users/chinazachukwunweike/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/Users/chinazachukwunweike/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/chinazachukwunweike/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/Users/chinazachukwunweike/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/Users/chinazachukwunweike/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire/surefirebooter-20261007070700385_27.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chinazachukwunweike/Documents/software_projects/group_c_cbf/codingblackfemales-chinaza/algo-coding-exercise/getting-started/target/surefire/surefirebooter-20261007231034782_27.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.11"/>
@@ -59,7 +59,7 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="shouldNotCreateMoreThanThreeActiveOrders" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.015">
-    <system-out><![CDATA[07:07:00.551 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+    <system-out><![CDATA[23:10:34.947 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -69,55 +69,55 @@
     200 @ 95
     300 @ 91
 
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.553 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.554 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.949 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.950 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.555 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.555 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.557 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.557 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.951 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.951 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.953 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.953 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.953 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.557 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.557 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.953 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.953 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.953 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.953 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.557 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.557 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.557 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.954 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.954 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
-07:07:00.558 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.954 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.954 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -127,25 +127,25 @@
     200 @ 95
     300 @ 91
 
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.558 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.954 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.954 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.954 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.954 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.955 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.558 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.955 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.955 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
   <testcase name="testDoesNothingWhenBestBidHasNotChanged" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.002">
-    <system-out><![CDATA[07:07:00.559 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+    <system-out><![CDATA[23:10:34.955 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -155,55 +155,55 @@
     200 @ 95
     300 @ 91
 
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.559 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.559 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.955 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.956 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.559 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.559 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.559 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.559 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.956 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.956 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.560 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.560 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.956 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.956 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.560 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.560 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.956 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.956 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.956 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.560 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
-07:07:00.560 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.957 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -213,25 +213,25 @@
     200 @ 95
     300 @ 91
 
-07:07:00.560 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.560 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.957 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.957 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
   <testcase name="testDispatchThroughSequencer" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.001">
-    <system-out><![CDATA[07:07:00.561 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+    <system-out><![CDATA[23:10:34.958 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -241,58 +241,58 @@
     200 @ 95
     300 @ 91
 
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.561 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.958 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.561 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.562 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.562 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.958 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.958 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.562 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.562 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.958 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.958 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.959 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.562 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.562 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.959 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.959 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.562 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
-  <testcase name="testCancelsChildOrderWhenMarketPriceChanges" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.004">
-    <system-out><![CDATA[07:07:00.562 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+  <testcase name="testCancelsChildOrderWhenMarketPriceChanges" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.005">
+    <system-out><![CDATA[23:10:34.959 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -302,55 +302,55 @@
     200 @ 95
     300 @ 91
 
-07:07:00.562 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.563 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.563 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.563 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.563 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.563 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.959 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.563 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.563 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.959 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.959 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.960 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.563 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.563 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.960 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.960 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.563 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.563 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.960 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.960 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.563 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
-07:07:00.564 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.960 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.960 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
 |----BID-----|
     101 @ 97
    200 @ 105
@@ -360,91 +360,91 @@
     200 @ 90
     300 @ 85
 
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:97 quantity:101
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:105 quantity:200
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:100
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:90 quantity:200
-07:07:00.564 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:85 quantity:300
-07:07:00.564 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:97 quantity:101
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:105 quantity:200
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:100
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:90 quantity:200
+23:10:34.960 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:85 quantity:300
+23:10:34.961 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.564 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.564 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@2a5c8d3f
-07:07:00.565 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@2a5c8d3f)
-07:07:00.565 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=2
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.961 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.961 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@2a5c8d3f
+23:10:34.961 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@2a5c8d3f)
+23:10:34.962 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=2
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.566 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.566 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=5
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.962 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.962 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=5
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@510f3d34
-07:07:00.566 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@510f3d34)
-07:07:00.566 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=3
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.962 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@510f3d34
+23:10:34.962 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@510f3d34)
+23:10:34.962 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=3
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.566 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.566 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=6
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.963 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.963 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=6
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@7817fd62
-07:07:00.566 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@7817fd62)
-07:07:00.566 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=4
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@7817fd62
+23:10:34.963 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@7817fd62)
+23:10:34.963 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=4
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.566 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.567 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.567 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=7
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.963 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.963 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=7
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.963 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
   <testcase name="testAlgoRespondsToMultipleMarketDataUpdates" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.004">
-    <system-out><![CDATA[07:07:00.567 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+    <system-out><![CDATA[23:10:34.964 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -454,55 +454,55 @@
     200 @ 95
     300 @ 91
 
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.567 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.567 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.567 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.964 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.964 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.567 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.567 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.567 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.964 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.964 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.568 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.568 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.964 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.964 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
-07:07:00.568 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.964 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.964 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
 |----BID-----|
     101 @ 97
    200 @ 105
@@ -512,88 +512,88 @@
     200 @ 90
     300 @ 85
 
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:97 quantity:101
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:105 quantity:200
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:100
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:90 quantity:200
-07:07:00.568 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:85 quantity:300
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:97 quantity:101
+23:10:34.964 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:105 quantity:200
+23:10:34.965 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.965 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:100
+23:10:34.965 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:90 quantity:200
+23:10:34.965 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:85 quantity:300
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@8297b3a
-07:07:00.568 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@8297b3a)
-07:07:00.568 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=2
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@8297b3a
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@8297b3a)
+23:10:34.965 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=2
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.568 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.568 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=5
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.965 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=5
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.568 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@2362f559
-07:07:00.568 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@2362f559)
-07:07:00.568 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=3
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@2362f559
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@2362f559)
+23:10:34.965 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=3
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.569 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.569 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=6
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.965 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=6
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@b2c9a9c
-07:07:00.569 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@b2c9a9c)
-07:07:00.569 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=4
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@b2c9a9c
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@b2c9a9c)
+23:10:34.965 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=4
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
-07:07:00.569 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
-07:07:00.569 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=7
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 97
+23:10:34.965 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=97)
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=97|quantity=75|side=BUY|orderId=7
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 97    100 @ 95
    200 @ 105    200 @ 90
   5000 @ 115    300 @ 85
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
-07:07:00.569 [main] INFO  c.sequencer.consumer.LoggingConsumer - [12] 
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [12] 
 |----BID-----|
     101 @ 96
    200 @ 103
@@ -603,91 +603,91 @@
     200 @ 89
     300 @ 84
 
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:96 quantity:101
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:103 quantity:200
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:5000
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:94 quantity:100
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:89 quantity:200
-07:07:00.569 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:84 quantity:300
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:96 quantity:101
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:103 quantity:200
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:5000
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:94 quantity:100
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:89 quantity:200
+23:10:34.966 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:84 quantity:300
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@4c178a76
-07:07:00.569 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@4c178a76)
-07:07:00.569 [main] INFO  c.sequencer.consumer.LoggingConsumer - [13] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=5
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@4c178a76
+23:10:34.966 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@4c178a76)
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [13] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=5
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.569 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
-07:07:00.569 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
-07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [14] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=8
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
+23:10:34.966 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [14] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=8
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@fa4c865
-07:07:00.570 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@fa4c865)
-07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [15] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=6
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@fa4c865
+23:10:34.966 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@fa4c865)
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [15] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=6
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
-07:07:00.570 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
-07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [16] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=9
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
+23:10:34.966 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
+23:10:34.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [16] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=9
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@3bd82cf5
-07:07:00.570 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@3bd82cf5)
-07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [17] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=7
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Best bid has changed. Cancelling stale child order: codingblackfemales.sotw.ChildOrder@3bd82cf5
+23:10:34.967 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@3bd82cf5)
+23:10:34.967 [main] INFO  c.sequencer.consumer.LoggingConsumer - [17] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=7
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
-07:07:00.570 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
-07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [18] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=10
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 96
+23:10:34.967 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=96)
+23:10:34.967 [main] INFO  c.sequencer.consumer.LoggingConsumer - [18] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=96|quantity=75|side=BUY|orderId=10
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
     101 @ 96    100 @ 94
    200 @ 103    200 @ 89
   5000 @ 110    300 @ 84
 |------------||-----------|
 
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.570 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
   <testcase name="shouldCreateThreeBuyOrdersWhenThereAreNoActiveOrders" classname="codingblackfemales.gettingstarted.MyAlgoTest" time="0.001">
-    <system-out><![CDATA[07:07:00.570 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+    <system-out><![CDATA[23:10:34.967 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
    101 @ 100
    200 @ 110
@@ -697,54 +697,54 @@
     200 @ 95
     300 @ 91
 
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
-07:07:00.571 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.967 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:100 quantity:101
+23:10:34.967 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:110 quantity:200
+23:10:34.968 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:115 quantity:5000
+23:10:34.968 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:100
+23:10:34.968 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:95 quantity:200
+23:10:34.968 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:91 quantity:300
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.571 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.571 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 0
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.968 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.968 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=2
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.571 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.571 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 1
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.968 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.968 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=3
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
-07:07:00.571 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
-07:07:00.571 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 2
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Creating BUY order: 75 @ 100
+23:10:34.968 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=75,price=100)
+23:10:34.968 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=75|side=BUY|orderId=4
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
 |----BID-----||----ASK----|
    101 @ 100    100 @ 98
    200 @ 110    200 @ 95
   5000 @ 115    300 @ 91
 |------------||-----------|
 
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
-07:07:00.571 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Active child orders: 3
+23:10:34.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Child order is still at the best bid. No action.
 ]]></system-out>
   </testcase>
 </testsuite>

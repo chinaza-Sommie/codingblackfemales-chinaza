@@ -49,28 +49,46 @@ public class MyAlgoTest extends AbstractAlgoTest {
             assertEquals(3, container.getState().getActiveChildOrders().size());
     }
 
+
     @Test
     public void shouldNotCreateMoreThanThreeActiveOrders() throws Exception {
         send(createTick());
 
+        assertEquals(3, container.getState().getChildOrders().size());
         assertEquals(3, container.getState().getActiveChildOrders().size());
 
         send(createTick());
        
+        assertEquals(3, container.getState().getChildOrders().size());
         assertEquals(3, container.getState().getActiveChildOrders().size());
     }
     
-    // test for doing nothing when the price is still valid
+    // test for doing nothing when the price is still valid    
     @Test
     public void testDoesNothingWhenBestBidHasNotChanged() throws Exception {
-        send(createTick());
-        int numberOfOdersBefore = container.getState().getChildOrders().size();
 
         send(createTick());
 
-        assertEquals(numberOfOdersBefore, container.getState().getChildOrders().size());
+        assertEquals(3, container.getState().getActiveChildOrders().size());
+        assertEquals(3, container.getState().getChildOrders().size());
+
+        container.getState().getActiveChildOrders().forEach(order ->
+                assertEquals(100L, order.getPrice())
+        );
+
+        send(createTick());
+
+        // Nothing should have been cancelled or created.
+        assertEquals(3, container.getState().getActiveChildOrders().size());
+        assertEquals(3, container.getState().getChildOrders().size());
+
+        // All active orders should still be at 100.
+        container.getState().getActiveChildOrders().forEach(order ->
+                assertEquals(100L, order.getPrice())
+        );
+
     }
-    
+
     @Test 
     public void testCancelsChildOrderWhenMarketPriceChanges() throws Exception {
         send(createTick());
@@ -96,4 +114,5 @@ public class MyAlgoTest extends AbstractAlgoTest {
 
         assertTrue(container.getState().getChildOrders().size() >= 3);
     }
+
 }
