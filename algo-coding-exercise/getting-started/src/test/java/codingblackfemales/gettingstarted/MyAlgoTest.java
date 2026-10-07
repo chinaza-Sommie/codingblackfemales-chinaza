@@ -92,7 +92,7 @@ public class MyAlgoTest extends AbstractAlgoTest {
 
         send(createTick2());
 
-        send(createTick2());
+        send(createTick3());
 
         assertTrue(container.getState().getChildOrders().size() >= 3);
     }
